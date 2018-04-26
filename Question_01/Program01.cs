@@ -8,6 +8,11 @@ namespace Question_01
         {
             Console.WriteLine("Class A");
         }
+
+        //public void SomeMethodA()
+        //{
+        //    Console.WriteLine("SomeMethod A");
+        //}
     }
 
     class B : A
@@ -16,9 +21,19 @@ namespace Question_01
         {
             Console.WriteLine("Class B");
         }
+
+        //public new void SomeMethodA()
+        //{
+        //    Console.WriteLine("new SomeMethod A");
+        //}
+
+        //public void SomeMethodB()
+        //{
+        //    Console.WriteLine("SomeMethod B");
+        //}
     }
 
-    internal class Program
+    internal class Program01
     {
         private static void Main()
         {
@@ -27,11 +42,14 @@ namespace Question_01
 
             B obj2 = new B();
             obj2.Foo();
+            //obj2.SomeMethodA();
 
             A obj3 = new B();
             obj3.Foo();
+            //obj3.SomeMethodA();
 
             Console.ReadKey();
         }
+
     }
 }

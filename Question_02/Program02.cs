@@ -2,7 +2,7 @@
 
 namespace Question_02
 {
-    internal class Program
+    internal class Program02
     {
         public struct S : IDisposable
         {
