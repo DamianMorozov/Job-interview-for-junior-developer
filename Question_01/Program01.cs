@@ -1,4 +1,5 @@
 ﻿using System;
+// ReSharper disable RedundantCast
 
 namespace Question_01
 {

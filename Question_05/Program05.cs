@@ -1,10 +1,12 @@
 ﻿using System;
+// ReSharper disable UseStringInterpolation
+// ReSharper disable RedundantCast
 
 namespace Question_05
 {
     class Program05
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var s1 = string.Format("{0}{1}", "abc", "cba");
             var s2 = "abc" + "cba";

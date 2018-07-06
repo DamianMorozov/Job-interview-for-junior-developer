@@ -32,7 +32,7 @@ namespace Question_07
             }
         }
 
-        private static void Main(string[] args)
+        private static void Main()
         {
             var c = new C();
             A a = c;

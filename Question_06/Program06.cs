@@ -1,4 +1,6 @@
 ﻿using System;
+// ReSharper disable InconsistentNaming
+// ReSharper disable FieldCanBeMadeReadOnly.Local
 
 namespace Question_06
 {
@@ -14,7 +16,7 @@ namespace Question_06
             }
         }
 
-        static void Main(string[] args)
+        static void Main()
         {
             lock (syncObject)
             {
