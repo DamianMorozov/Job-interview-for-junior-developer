@@ -1,4 +1,6 @@
 ﻿using System;
+// ReSharper disable ConvertToLocalFunction
+// ReSharper disable AccessToModifiedClosure
 
 namespace Question_23
 {
